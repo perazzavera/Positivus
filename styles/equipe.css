@@ -1,0 +1,121 @@
+.equipe {
+  margin: 0 100px 140px 100px;
+  box-sizing: border-box;
+}
+
+.equipe-cabecalho {
+  display: grid;
+  grid-template-columns: 10% 40%;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.equipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.equipe-cabecalho h2 {
+  background-color: var(--verde);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.equipe-conteudo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--chumbo);
+  padding: 40px 35px;
+  justify-content: center;
+  border-radius: 45px;
+  width: 320px;
+  border-bottom: 6px solid var(--chumbo);
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.img-linkedin {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  right: 35px;
+  top: 40px;
+  cursor: pointer;
+}
+
+.equipe-conteudo-itens {
+  display: flex;
+  align-items: self-end;
+  gap: 20px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--chumbo);
+  margin-bottom: 28px;
+}
+
+.equipe-conteudo-info {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.equipe-botao {
+  background-color: var(--chumbo);
+  padding: 20px 76px;
+  border-radius: 14px;
+  font-family: var(--fonte-principal);
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--branco);
+  border: none;
+  text-decoration: none;
+  position: absolute;
+  right: 100px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.equipe-botao:hover {
+  opacity: 0.8;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+  .equipe {
+    margin: 50px 20px;
+    text-align: center;
+  }
+  .equipe-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .equipe-cabecalho p {
+    font-size: 15px;
+  }
+
+  .equipe-conteudo {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .equipe-conteudo-info {
+    text-align: left;
+  }
+
+  .equipe-conteudo p {
+    font-size: 16px;
+  }
+
+  .equipe-conteudo-itens {
+    gap: 10px;
+  }
+
+  .equipe-botao {
+    display: flex;
+    position: static;
+    right: 0;
+    justify-content: center;
+  }
+}

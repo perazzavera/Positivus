@@ -1,0 +1,182 @@
+.apresentacao {
+  box-sizing: border-box;
+}
+
+.apresentacao-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 108px;
+  margin: 70px 100px;
+}
+
+.apresentacao-container h4 {
+  margin: 35px 0;
+}
+
+.apresentacao-botao {
+  background-color: var(--chumbo);
+  padding: 20px 35px;
+  border-radius: 14px;
+  font-family: var(--fonte-principal);
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--branco);
+  border: none;
+  text-decoration: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.apresentacao-botao:hover {
+  opacity: 0.8;
+}
+
+.apresentacao-imagem-mobile {
+  display: none;
+}
+
+/* Estilos gerais do ticker */
+.ticker-container {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+  margin: 20px 100px;
+  position: relative;
+}
+
+.ticker-list {
+  display: inline-block;
+  animation: ticker-scroll 20s linear infinite;
+}
+
+.ticker-list ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ticker-list li {
+  margin-right: 96px;
+}
+
+.ticker-list img {
+  height: 50px;
+  width: auto;
+}
+
+.ticker-list:hover {
+  animation-play-state: paused; /* Pausa a animação ao passar o mouse */
+}
+
+.ticker-desktop {
+  display: block;
+}
+
+.ticker-esquerda,
+.ticker-direita {
+  display: none;
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+  .apresentacao-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .apresentacao-container h1 {
+    font-size: 40px;
+  }
+
+  .apresentacao-container h4 {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .apresentacao-imagem-desktop {
+    display: none;
+  }
+
+  .apresentacao-imagem-mobile {
+    display: block;
+    margin: 20px;
+  }
+
+  .apresentacao-imagem-mobile img {
+    width: 100%;
+  }
+
+  .apresentacao-botao {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ticker-desktop {
+    display: none;
+  }
+
+  .ticker-esquerda,
+  .ticker-direita {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .ticker-container {
+    margin: 20px;
+  }
+
+  .ticker-esquerda {
+    animation: ticker-scroll-esquerda 5s linear infinite;
+  }
+  .ticker-direita {
+    animation: ticker-scroll-direita 5s linear infinite;
+  }
+
+  .ticker-list li {
+    margin: 0;
+  }
+
+  .ticker-list ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* Ajuste o valor conforme necessário */
+  }
+
+  .ticker-list:hover {
+    animation-play-state: paused; /* Pausa a animação ao passar o mouse */
+  }
+
+  /* Animação para rolar para a esquerda */
+  @keyframes ticker-scroll-esquerda {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Animação para rolar para a direita */
+  @keyframes ticker-scroll-direita {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}

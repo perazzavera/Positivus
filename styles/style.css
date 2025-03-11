@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url("./reset.css");
+@import url("./cabecalho.css");
+@import url("./apresentacao.css");
+@import url("./servicos.css");
+@import url("./estudos.css");
+@import url("./processos.css");
+@import url("./equipe.css");
+@import url("./depoimentos.css");
+@import url("./contato.css");
+@import url("./rodape.css");
+
+:root {
+    --fonte-principal: "Space Grotesk", serif;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --verde: #B9FF66;
+    --chumbo: #191A23;
+    --chumbo-claro: #292A32;
+    --cinza-claro: #F3F3F3;
+}
+
+body {
+    background-color: var(--branco);
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}

@@ -1,0 +1,180 @@
+.depoimentos {
+  margin: 80px 100px;
+}
+
+.depoimentos-cabecalho {
+  display: grid;
+  grid-template-columns: 20% 36%;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.depoimentos-cabecalho h2 {
+  background-color: var(--verde);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.container-carrossel {
+  background-color: var(--chumbo);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  padding: 84px 0 68px !important;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.container-carrossel-lista {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 40px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.container-carrossel-item {
+  flex: 0 0 500px;
+  box-sizing: border-box;
+  transition: transform 0.5s ease-in-out;
+}
+
+.container-carrossel-item.active {
+  transform: scale(1.1);
+}
+
+/*CARD*/
+.card {
+  position: relative;
+  border: 1px solid var(--verde);
+  padding: 50px;
+  color: white;
+  background-color: var(--chumbo);
+  border-radius: 45px;
+  width: 500px;
+}
+
+.card-icone {
+  position: absolute;
+  width: 64px;
+  height: 38.9px;
+  stroke: var(--verde);
+  fill: none;
+  bottom: -28px;
+  left: 40px;
+}
+
+.card-autor {
+  margin: 40px 0 0 6%;
+}
+
+.card-autor h3 {
+  color: var(--verde);
+  font-size: 20px;
+}
+
+.card-autor p {
+  color: white;
+  font-size: 18px;
+}
+/*PAGINAÇÃO*/
+.carrossel-navegacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  margin-top: 120px;
+}
+
+.carrossel-marcadores {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+
+.carrossel-botao-voltar,
+.carrossel-botao-avancar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.carrossel-navegacao button {
+  height: 14px;
+}
+
+.carrossel-botao-voltar,
+.carrossel-botao-avancar {
+  background-color: transparent;
+  border: none;
+  width: 14px;
+  height: 14px;
+}
+
+.carrossel-botao-voltar {
+  padding-right: 20px;
+}
+
+.carrossel-botao-avancar {
+  padding-left: 20px;
+}
+
+.carrossel-botao-voltar.desabilitado,
+.carrossel-botao-avancar.desabilitado {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+  .depoimentos {
+    margin: 30px 20px;
+    text-align: center;
+  }
+
+  .depoimentos-cabecalho {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-carrossel {
+    margin-top: 45px;
+    padding: 30px 0 50px !important;
+  }
+
+  .container-carrossel-lista {
+    transition: transform 0.5s ease-in-out;
+    gap: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  /*CARD*/
+  .card {
+    padding: 20px;
+    width: 50%;
+  }
+
+  .card-texto {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .card-autor {
+    text-align: left;
+    margin: 40px 0 0 15%;
+  }
+
+  .card-autor p {
+    font-size: 14px;
+  }
+  /*PAGINAÇÃO*/
+  .carrossel-navegacao {
+    gap: 45px;
+    margin-top: 45px;
+  }
+}

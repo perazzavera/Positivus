@@ -1,0 +1,18 @@
+.titulo {
+  margin-top: -25px;
+}
+
+@media (min-width: 768px) {
+  .subtitulo {
+    max-width: 25%;
+  }
+
+  .acordion {
+    border-radius: 10px;
+  }
+
+  .titulo {
+    margin-top: 0;
+    margin-left: -16px;
+  }
+}

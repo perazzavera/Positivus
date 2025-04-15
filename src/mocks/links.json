@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "label": "Home",
+    "to": "/"
+  },
+  {
+    "id": 2,
+    "label": "About Us",
+    "to": "/about"
+  },
+  {
+    "id": 3,
+    "label": "Services",
+    "to": "/services"
+  },
+  {
+    "id": 4,
+    "label": "Use Cases",
+    "to": "/use-cases"
+  },
+  {
+    "id": 5,
+    "label": "Pricing",
+    "to": "/pricing"
+  },
+  {
+    "id": 6,
+    "label": "Blog",
+    "to": "/blog"
+  }
+]

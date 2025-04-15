@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+  .subtitulo {
+    max-width: 40%;
+  }
+
+  .link {
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 998px) {
+  .card {
+    width: 48%;
+  }
+}

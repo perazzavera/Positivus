@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nome": "John Smith",
+    "cargo": "CEO and Founder",
+    "descricao": "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+    "imagem": "/images/john.svg",
+    "linkedin": "/images/linkedin.svg"
+  },
+  {
+    "id": 2,
+    "nome": "Jane Doe",
+    "cargo": "Director of Operations",
+    "descricao": "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+    "imagem": "/images/jane.svg",
+    "linkedin": "/images/linkedin.svg"
+  },
+  {
+    "id": 3,
+    "nome": "Michael Brown",
+    "cargo": "Senior SEO Specialist",
+    "descricao": "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+    "imagem": "/images/michael.svg",
+    "linkedin": "/images/linkedin.svg"
+  },
+  {
+    "id": 4,
+    "nome": "Emily Johnson",
+    "cargo": "PPC Manager",
+    "descricao": "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
+    "imagem": "/images/emily.svg",
+    "linkedin": "/images/linkedin.svg"
+  },
+  {
+    "id": 5,
+    "nome": "Brian Williams",
+    "cargo": "Social Media Specialist",
+    "descricao": "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
+    "imagem": "/images/brian.svg",
+    "linkedin": "/images/linkedin.svg"
+  },
+  {
+    "id": 6,
+    "nome": "Sarah Kim",
+    "cargo": "Content Creator",
+    "descricao": "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries",
+    "imagem": "/images/sarah.svg",
+    "linkedin": "/images/linkedin.svg"
+  }
+]

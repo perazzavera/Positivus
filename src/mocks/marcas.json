@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "src": "/images/amazon-logo.svg",
+    "alt": "logo amazon"
+  },
+  {
+    "id": 2,
+    "src": "/images/drilbbbe-logo.svg",
+    "alt": "logo dribbble"
+  },
+  {
+    "id": 3,
+    "src": "/images/hubspot-logo.svg",
+    "alt": "logo hubspot"
+  },
+  {
+    "id": 4,
+    "src": "/images/notion-logo.svg",
+    "alt": "logo notion"
+  },
+  {
+    "id": 5,
+    "src": "/images/netflix-logo.svg",
+    "alt": "logo netflix"
+  },
+  {
+    "id": 6,
+    "src": "/images/zoom-logo.svg",
+    "alt": "logo zoom"
+  },
+  {
+    "id": 7,
+    "src": "/images/amazon-logo.svg",
+    "alt": "logo amazon"
+  },
+  {
+    "id": 8,
+    "src": "/images/drilbbbe-logo.svg",
+    "alt": "logo dribbble"
+  },
+  {
+    "id": 9,
+    "src": "/images/hubspot-logo.svg",
+    "alt": "logo hubspot"
+  },
+  {
+    "id": 10,
+    "src": "/images/notion-logo.svg",
+    "alt": "logo notion"
+  },
+  {
+    "id": 11,
+    "src": "/images/netflix-logo.svg",
+    "alt": "logo netflix"
+  },
+  {
+    "id": 12,
+    "src": "/images/zoom-logo.svg",
+    "alt": "logo zoom"
+  }
+]

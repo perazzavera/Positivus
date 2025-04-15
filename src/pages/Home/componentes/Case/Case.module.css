@@ -1,0 +1,16 @@
+.imagem {
+  transition: all 0.3s ease-in-out;
+}
+
+.subtitulo {
+  text-align: center;
+}
+
+.imagem:hover {
+  transform: rotate(30deg);
+}
+@media (min-width: 768px) {
+  .subtitulo {
+    max-width: 55%;
+  }
+}

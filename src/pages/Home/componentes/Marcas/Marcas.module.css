@@ -1,0 +1,55 @@
+.slider1,
+.slider2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Garante que o conteúdo não vaze para fora */
+}
+
+.track1 {
+  display: flex;
+  animation: scroll-left-to-right 30s linear infinite;
+  width: max-content;
+}
+
+.track2 {
+  display: flex;
+  animation: scroll-right-to-left 30s linear infinite;
+  width: max-content;
+}
+
+.item1 img,
+.item2 img {
+  max-height: 40px;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.item1:hover img,
+.item2:hover img {
+  filter: grayscale(0%);
+}
+
+/* Pausar a animação ao passar o mouse */
+.slider1:hover .track1,
+.slider2:hover .track2 {
+  animation-play-state: paused;
+}
+
+/* Animações corrigidas */
+@keyframes scroll-left-to-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes scroll-right-to-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "titulo": {
+      "span1": "Search engine",
+      "span2": "optimization"
+    },
+    "corDeFundo": "cinza",
+    "corSpan": "verde",
+    "link": "/search-engine-optimization",
+    "imagem": "/images/Illustration-1.svg",
+    "imagemFlecha": "/images/flecha-verde-chumbo.svg"
+  },
+  {
+    "id": 2,
+    "titulo": {
+      "span1": "Pay-per-click",
+      "span2": "advertising"
+    },
+    "corDeFundo": "verde",
+    "corSpan": "branco",
+    "link": "/pay-per-click-advertising",
+    "imagem": "/images/Illustration-2.svg",
+    "imagemFlecha": "/images/flecha-verde-chumbo.svg"
+  },
+  {
+    "id": 3,
+    "titulo": {
+      "span1": "Social Media",
+      "span2": "Marketing"
+    },
+    "corDeFundo": "chumbo",
+    "corSpan": "branco",
+    "corLink": "branco",
+    "link": "/social-media-marketing",
+    "imagem": "/images/Illustration-3.svg",
+    "imagemFlecha": "/images/flecha-chumbo-branco.svg"
+  },
+  {
+    "id": 4,
+    "titulo": {
+      "span1": "Email",
+      "span2": "Marketing"
+    },
+    "corDeFundo": "cinza",
+    "corSpan": "verde",
+    "link": "/email-marketing",
+    "imagem": "/images/Illustration-4.svg",
+    "imagemFlecha": "/images/flecha-verde-chumbo.svg"
+  },
+  {
+    "id": 5,
+    "titulo": {
+      "span1": "Content",
+      "span2": "Creation"
+    },
+    "corDeFundo": "verde",
+    "corSpan": "branco",
+    "link": "/content-creation",
+    "imagem": "/images/Illustration-5.svg",
+    "imagemFlecha": "/images/flecha-verde-chumbo.svg"
+  },
+  {
+    "id": 6,
+    "titulo": {
+      "span1": "Analytics and",
+      "span2": "Tracking"
+    },
+    "corDeFundo": "chumbo",
+    "corSpan": "branco",
+    "corLink": "branco",
+    "link": "/analytics-and-tracking",
+    "imagem": "/images/Illustration-6.svg",
+    "imagemFlecha": "/images/flecha-chumbo-branco.svg"
+  }
+]

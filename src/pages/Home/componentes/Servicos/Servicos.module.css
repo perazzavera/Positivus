@@ -1,0 +1,36 @@
+.borda {
+  border: 1px solid var(--chumbo);
+  border-bottom: 8px solid var(--chumbo);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--chumbo);
+  font-weight: 500;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  align-self: flex-end;
+}
+
+.imagem {
+  transition: all 0.3s ease-in-out;
+}
+
+.imagem:hover {
+  transform: rotate(30deg);
+}
+
+.imagemContato {
+  position: absolute;
+  right: 0;
+  top: -10%;
+  height: 120%;
+}
+
+@media (min-width: 768px) {
+  .subtitulo {
+    max-width: 60%;
+  }
+}

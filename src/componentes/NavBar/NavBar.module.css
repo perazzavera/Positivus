@@ -1,0 +1,18 @@
+.link {
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.link:hover {
+  background-color: var(--verde);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1030; /* ou um valor alto suficiente pra ficar acima do conteúdo */
+    background-color: white; /* importante pra não ficar transparente */
+  }
+}

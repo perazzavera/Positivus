@@ -1,0 +1,17 @@
+.botao {
+  background-color: var(--verde);
+  color: var(--chumbo);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.botao:hover {
+  background-color: var(--chumbo);
+  color: var(--branco);
+}
+
+@media (min-width: 768px) {
+  .container {
+    border-radius: 50px 50px 0 0;
+    margin: 0 4rem;
+  }
+}

@@ -1,0 +1,130 @@
+:root {
+  --fonte-principal: "Space Grotesk", sans-serif;
+  --branco: #ffffff;
+  --preto: #000000;
+  --verde: #b9ff66;
+  --chumbo: #191a23;
+  --chumbo-claro: #292a32;
+  --cinza-claro: #f3f3f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--branco);
+  font-family: var(--fonte-principal);
+}
+
+.navbar-nav .nav-link.active {
+  background-color: var(--verde);
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 43px;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+h4 {
+  font-size: 1.13rem;
+}
+
+p {
+  font-size: 1srem;
+  font-weight: 400;
+}
+
+.accordion {
+  --bs-accordion-btn-active-icon: url("../public/images/ver-menos.svg");
+  --bs-accordion-btn-icon: url("../public/images/mostrar-mais.svg");
+  --bs-accordion-btn-icon-width: 3rem;
+  --bs-accordion-border-color: var(--chumbo);
+}
+
+/* No seu CSS */
+.accordion-button {
+  background-color: var(--cinza-claro); /* verde esmeralda */
+  color: #000000;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--verde);
+  color: #000000;
+}
+
+.accordion-body {
+  background-color: var(--verde);
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.accordion-item {
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../public/images/Arrow left.svg");
+  width: 25px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../public/images/Arrow right.svg");
+  width: 25px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-image: url("/images/marcador-branco.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  background-size: cover;
+  height: 15px;
+  width: 15px;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-image: url("/images/marcador-verde.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  height: 15px;
+  width: 15px;
+}
+
+.form-check-input:checked {
+  background-color: var(--verde);
+  border-color: var(--verde);
+}
+
+@media (min-width: 768px) {
+  .accordion-button {
+    height: 100px;
+  }
+
+  .accordion-body {
+    height: 150px;
+  }
+}
